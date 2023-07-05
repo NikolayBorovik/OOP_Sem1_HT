@@ -1,0 +1,12 @@
+package OOP_Seminar1.OOP_Sem1_HT;
+
+public class Bird extends Animals{
+    public Bird(String name, String species) {
+        super(name, species);
+    }
+
+    @Override
+    public void Swim(){
+        super.CantSwim();
+    }
+}
